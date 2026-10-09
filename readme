@@ -1,0 +1,22 @@
+Simple Task Manager
+
+A console-based Task Manager application written in Java. Built to practice OOP, collections, file I/O, and Stream API.
+
+Features
+- Add tasks with a title and description
+- View tasks in a clean, single-line format with their completion status.
+- Complete or remove tasks (with automatic ID re-indexing so numbers stay sequential).
+- Filter tasks to show only completed ones using Java Stream API.
+- File persistence: Tasks are automatically saved to a file (`tasks.txt`) on exit and loaded back when the app starts.
+- Robust input handling: Prevents app crashes if the user inputs incorrect data types.
+
+Tech Stack
+- Java 8+
+- OOP & Collections (`ArrayList`)
+- Stream API & Lambdas
+- Java I/O (`FileWriter`, `BufferedReader`)
+
+How to Run
+1. Clone the repository or download the source code.
+2. Open it in your favorite IDE (like IntelliJ IDEA or VS Code).
+3. Run the `Main` class.
